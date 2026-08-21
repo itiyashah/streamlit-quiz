@@ -120,7 +120,7 @@ if st.session_state.quiz_over:
         st.rerun()
 
 
-else:
+else: # this block works if quiz is not over
     current_q = questions[st.session_state.q_index]
     total_q = len(questions)
 
@@ -134,7 +134,7 @@ else:
         "Select your answer:", 
         current_q["options"], 
         key=f"radio_q_{st.session_state.q_index}",
-        disabled=st.session_state.answered # Here the user's answer gets locked for submission
+        disabled=st.session_state.answered # Here the user's answer gets locked for submission and cannot be altered
     )
 
     submit_btn = st.button("Submit Answer", disabled=st.session_state.answered)
