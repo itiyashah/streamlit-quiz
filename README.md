@@ -1,41 +1,77 @@
-# streamlit-quiz
-If you wanna learn some of the important session states in streamlit , just come and try my quiz 
+# Streamlit Session State & Features Mastery Quiz
 
-# Streamlit Mastery / Master Quiz
+A gamified Streamlit application designed to test and deepen your understanding of st.session_state and key Streamlit concepts.
 
 ## Overview
-Okay , so i had dreamt so long to make this quiz , better call it a gamified - quiz on streamlit.
+State management is one of the most critical topics to master in Streamlit development. This application presents a 10-question interactive quiz covering foundational to moderately advanced concepts in Streamlit state management, caching, and layout structures.
 
-So here we are , i have added 10 quiz questions all related to learning session states , coz its a very important topic to know about , and most of the new session states that i learned was by playing this quiz. Quiz contains essential questions to a little advanced topic questions though not covering all but ig most important ones. And some of the session states are used in the python logic under the hood.
+Whether you are looking to test your knowledge or learn new Streamlit functions through practical examples, this project offers a lightweight, hands-on learning tool.
 
-Here , Gamified version is simply you get your final score/result at end and accuracy (in terms of score percentage) and some balloons if you crack the quiz and then you can restart the quiz again from Q1 but the questions and its order will remain the same . I have made a very simple streamlit app , no authentication stuffs coz my focus more was on quiz questions.
+## Features
+### 10 Core Questions:
 
-## Key Features
-Actually most of the key features of this data app i have covered in overview so i would let you know the session states that i learned from this project , some of them are in quiz , i am not giving explanation about the session states as you will get one while playing the quiz.
+Focuses on st.session_state patterns and practical Python logic used under the hood.
 
-* `st.cache_data`
-* `st.session_state`
-* `st.columns()`
-* `st.sidebar`
-* `st.form()`
-* `st.dataframe()`
-* `st.table()`
-* `st.file_uploader()`
-* `st.fragment`
-* `st.chat_input()`
-* `st.chat_message()`
-* `st.cache_resource()`
+### Gamified Scoring:
+
+Real-time score tracking.
+
+Final accuracy percentage display upon completion.
+
+Interactive celebrations (st.balloons) upon passing or clearing the quiz.
+
+One-click quiz restart.
+
+### Streamlined UI:
+
+Built purely with native Streamlit components for a simple, focused user experience.
+
+## Key Streamlit Concepts Covered
+
+Through the quiz and underlying codebase, this project demonstrates usage and concepts behind:
+
+State Management: st.session_state
+
+Performance & Caching: @st.cache_data, @st.cache_resource
+
+Component Execution: @st.fragment
+
+Layout & Structure: st.columns(), st.sidebar, st.form()
+
+Data & File Display: st.dataframe(), st.table(), st.file_uploader()
+
+Conversational UI: st.chat_input(), st.chat_message()
 
 ## Tech Stack
-The tools used (Python, Streamlit, Git).
 
-## Installation & Setup
-So on my GitHub page u will find repo called streamlit-quiz and in that you will get a code in a file named app.py
+Language: Python
 
-You can run it locally on your machine by downloading the file and by running the following command in terminal / command prompt : 
-`streamlit run app.py` ( make sure you have downloaded streamlit)
+Framework: Streamlit
+
+Version Control: Git & GitHub
+
+## Prerequisites
+
+Ensure you have Python installed on your system. You can install Streamlit and required dependencies using pip:
+
+pip install streamlit
+(If using a requirements.txt file from the repository, run pip install -r requirements.txt)
+
+## Local Setup & Execution
+
+Clone the repository:
+
+git clone https://github.com/itiyashah/streamlit-quiz.git
+cd streamlit-quiz
+
+## Run the Streamlit application:
+
+streamlit run app.py
+
+Open your browser and navigate to the local address provided in your terminal (typically http://localhost:8501).
 
 ## Live Demo
-I also have a public link which straight away leads you to the quiz , please feel free to try and play and don't worry coz i am not collecting any users info in my database! 
 
-here's the link : https://session-state-learning-quiz-app.streamlit.app/
+Try out the hosted application directly without any local installation:
+
+👉 Launch Streamlit Quiz App
